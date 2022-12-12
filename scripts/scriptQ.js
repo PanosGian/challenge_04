@@ -42,9 +42,6 @@ for (let i = 0; i < maxNumberOfQuesions; i++) {
 //event.preventDefault();
 
 
-
-
-
 // getting questions and options from array
 function showQuetions(index) {
     quest.textContent = questions[index].q;
@@ -53,13 +50,6 @@ function showQuetions(index) {
     btnO3.textContent = questions[index].options[2];
     btnO4.textContent = questions[index].options[3];
 }
-
-
-
-
-
-
-
 
 
 //This function gets the selected button id and chenages the background of the selected button.
@@ -143,8 +133,7 @@ function startTotalTimer(time) {
         if (sec < 10) {
             sec = "0" + sec;
         }
-
-
+        
         time = min + ":" + sec;
         totTime.textContent = time; //changing the value of timeCount with time value
         //time--; //decrement the time value

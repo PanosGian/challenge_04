@@ -97,3 +97,19 @@ You are required to submit BOTH of the following for review:
 ---
 
 © 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+
+## Code implementation and Methodology
+There are many different ways of implementing the above code requirements:
+Initially, I tried to adopt a mothodology presented in the following link: 
+https://www.codingnepalweb.com/quiz-app-with-timer-javascript/
+
+The above workflow uses a single htmpl page and two .js scripts
+It, uses CSS definitions to switch on/off various parts of the DOM
+
+Because I found some parts of this workflow challenging, I only used few CSS styles from the above link,
+and I implemented the code diferently:
+* Instead of onw html page, I used different pages (html files) for each part of the code:
+* Each html document uses a different script .js file
+* The main routines and functions are implemented in the scriptQ.js file
+* The formQuestions.js contains a list of 50 different javaScript questions which were selected from https://www.javatpoint.com/javascript-mcq
+* more work could be done, e.g. by including more questions or adding more dialogs and prompts, but I thought this was beyond scope at this stage
